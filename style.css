@@ -1,0 +1,100 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header .subtitle {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.cta {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.discord-button {
+    display: inline-block;
+    background: #7289DA;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background 0.3s ease;
+}
+
+.discord-button:hover {
+    background: #5b6eae;
+}
+
+.dev-messages {
+    background: #2C2F33;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dev-messages p {
+    margin: 5px 0;
+}
+
+.dev-messages span {
+    color: #7289DA;
+    font-weight: bold;
+}
+
+pre {
+    background: #2C2F33;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
